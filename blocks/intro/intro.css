@@ -1,0 +1,28 @@
+.intro {
+    max-width: 690px;
+    min-height: 429px;
+    align-self: stretch;
+    /*margin: 0 100px;*/
+    margin: 0 calc((100% - 984px) / 2) 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 max(24px, calc((100% - 928px) / 2)) 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .intro {
+        margin-bottom: 64px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

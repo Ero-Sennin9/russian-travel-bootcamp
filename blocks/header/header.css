@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 28px 48px 56px;
+    height: 52px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        margin: 28px 24px 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        margin: 16px 16px 48px;
+    }
+}
