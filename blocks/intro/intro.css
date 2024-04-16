@@ -1,8 +1,6 @@
 .intro {
     max-width: 690px;
-    min-height: 429px;
     align-self: stretch;
-    /*margin: 0 100px;*/
     margin: 0 calc((100% - 984px) / 2) 92px;
 }
 
